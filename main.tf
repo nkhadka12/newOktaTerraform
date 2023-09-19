@@ -14,7 +14,7 @@ provider "okta"{
 org_name = "dev-10812830"
     base_url = "okta.com"
     client_id = "0oabe40etgZ29AVnM5d7"
-    scopes = ["okta.groups.manage"]
+    scopes = ["okta.groups.manage","okta.users.manage"]
   
 
     private_key = "${path.module}/rsa.pem"
