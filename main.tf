@@ -21,7 +21,3 @@ org_name = "dev-10812830"
 
 }
 
-resource "okta_group" "terra_group1"{
-  name = "Terra_Form_Group1234"
-}
-
