@@ -11,7 +11,7 @@ terraform {
   }
 }
 provider "okta"{
-    scopes = ["okta.groups.manage","okta.users.manage"]
+    scopes = ["okta.groups.manage","okta.users.manage","okta.authorizationServers.manage"]
     private_key = "${path.module}/rsa.pem"
 
 }
