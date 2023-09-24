@@ -5,3 +5,4 @@ data "okta_app" "oidcApp" {
 output "foo"{
     value = data.okta_app.oidcApp
 }
+

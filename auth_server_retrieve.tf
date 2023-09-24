@@ -1,3 +1,6 @@
 data "okta_auth_server" "first_auth" {
-  name = "First_Auth_Server"
+  name = "Second_Auth_Server"
+}
+output "auth_Server"{
+  data.okta_auth_server.first_auth
 }
