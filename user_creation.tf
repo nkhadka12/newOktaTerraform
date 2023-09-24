@@ -5,3 +5,10 @@ resource "okta_user" "test2" {
   email                = "example@example.com"
   password_inline_hook = "default"
 }
+resource "okta_user" "test3" {
+  first_name           = "Johnny"
+  last_name            = "Chang"
+  login                = "example@example.com"
+  email                = "example@example.com"
+  password_inline_hook = "default"
+}
