@@ -1,14 +1,8 @@
-resource "okta_user" "test2" {
+resource "okta_user" "test12" {
   first_name           = "Johnny"
-  last_name            = "Bang"
+  last_name            = "Cang"
   login                = "example@example.com"
   email                = "example@example.com"
   password_inline_hook = "default"
 }
-resource "okta_user" "test35" {
-  first_name           = "Johnny"
-  last_name            = "Chang"
-  login                = "example12@example.com"
-  email                = "example@example.com"
-  password_inline_hook = "default"
-}
+
