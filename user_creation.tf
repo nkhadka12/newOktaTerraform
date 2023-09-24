@@ -8,7 +8,7 @@ resource "okta_user" "test2" {
 resource "okta_user" "test3" {
   first_name           = "Johnny"
   last_name            = "Chang"
-  login                = "example@example.com"
+  login                = "example12@example.com"
   email                = "example@example.com"
   password_inline_hook = "default"
 }
